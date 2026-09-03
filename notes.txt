@@ -1,5 +1,5 @@
 
-# App setup -------------------------
+# App setup ---------------------------
 
 1. npm create vite@latest ./
 2. Remove app.jsx, app.css, all assets and clean index.css
@@ -7,7 +7,12 @@
 4. Install Tailwind (npm install tailwindcss @tailwindcss/vite)
 5. In vite.config.js add tailwindcss
 
-# NavBar -------------------------
+# NavBar -------------------------------
 
 1. Map over labels array
 2. constants/index.js has the array of links. 
+
+# Hero section -------------------------
+
+1. For more control over a specific video, you attach it to a ref. 
+2. Do not overwhelm with animations.
